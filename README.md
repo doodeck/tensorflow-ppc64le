@@ -7,3 +7,7 @@
 ### Running instructions
 
 ```sudo docker run -u $(id -u):$(id -g) -it --rm -v $(realpath ~/notebooks):/tf/notebooks -p 8888:8888 <image_id>```
+
+Required is ppc64le architecture machine, available for instance hier:
+
+(https://openpower.ic.unicamp.br/minicloud/)
